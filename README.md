@@ -11,12 +11,12 @@ Dont be shy to contribute it or me! :)
 
 ```bash
 docker run --rm -it           \
-	   --cap-add SYS_ADMIN    \
-	   --cap-add NET_ADMIN    \
-	   --network host         \
+      --cap-add SYS_ADMIN     \
+      --cap-add NET_ADMIN     \
+      --network host          \
    mrecco/ettercap            \
-	   -TbqM arp              \
-	   -oi interface_name
+      -TbqM arp               \
+      -oi interface_name
 ```
 
 ### Docker-compose
