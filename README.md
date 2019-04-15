@@ -54,5 +54,7 @@ iptables -t nat -I POSTROUTING -s 192.168.1.0/24 -j MASQUERADE
 ## Documentation
 
 [https://linux.die.net/man/8/ettercap](https://linux.die.net/man/8/ettercap) [EN]
+
 [https://pentestmag.com/ettercap-tutorial-for-windows/](https://pentestmag.com/ettercap-tutorial-for-windows/) [EN]
+
 [https://kali.tools/?p=830](https://kali.tools/?p=830) [RU]
