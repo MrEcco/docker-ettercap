@@ -1,4 +1,4 @@
-FROM alpine:3.9.3 as builder
+FROM alpine:3.10.3 as builder
 
 ARG GIT_ETTERCAP=https://github.com/Ettercap/ettercap.git
 
@@ -65,7 +65,7 @@ RUN mkdir -p                                \
          /usr/local/share/ettercap/*        \
          /output/usr/local/share/ettercap/
 
-FROM alpine:3.9.3
+FROM alpine:3.10.3
 
 COPY --from=builder /output /
 
